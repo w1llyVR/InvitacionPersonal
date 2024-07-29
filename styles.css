@@ -1,0 +1,207 @@
+.titulo{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: black;
+  padding-top: 2%;
+}
+
+.titulo2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.introduccion{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/480/060/original/luxury-tropical-flower-golden-line-art-wallpaper-elegant-botanical-gradient-pale-pink-rose-flowers-background-design-for-decorative-wedding-card-home-decor-packaging-print-cover-banner-vector.jpg");
+
+}
+
+.introduccion2{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/480/060/original/luxury-tropical-flower-golden-line-art-wallpaper-elegant-botanical-gradient-pale-pink-rose-flowers-background-design-for-decorative-wedding-card-home-decor-packaging-print-cover-banner-vector.jpg");
+
+}
+
+/* Contador */
+
+.contador{
+    padding-top: 8%;
+    background-image: url('./assets/ring.png'); /* Asegúrate de ajustar la ruta según tu estructura de carpetas */
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center; /* Centra la imagen */
+    height: 700px; /* Ajusta la altura del div según sea necesario */
+    z-index: 1; /* Asegúrate de que esté delante de otros elementos */
+    position: relative; /* Necesario para que z-index funcione */
+}
+
+.countdown-header {
+    font-size: 4rem;
+    color: #8c4f35;
+    margin-bottom: 10px;
+}
+.countdown {
+    font-size: 3rem;
+    color: #8c4f35;
+    display: flex;
+    justify-content: center;
+}
+.countdown div {
+    margin: 0 5px;
+}
+.countdown div span {
+    display: block;
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 1440px) {
+
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    .contador {
+        height: 500px;
+        padding-top: 10%;
+    }
+    .countdown-header {
+        font-size: 2.5rem;
+    }
+    .countdown {
+        font-size: 2rem;
+    }
+    .countdown div span {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .contador {
+        height: 400px;
+        padding-top: 11%;
+    }
+    .countdown-header {
+        font-size: 2.3rem;
+    }
+    .countdown {
+        font-size: 1.8rem;
+    }
+    .countdown div span {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulo{
+        font-size: 4rem;
+    }
+    .contador {
+        height: 300px;
+        padding-top: 11%;
+    }
+    .countdown-header {
+        font-size: 2rem;
+    }
+    .countdown {
+        font-size: 1.3rem;
+    }
+    .countdown div span {
+        font-size: 1rem;
+    }
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .titulo{
+        font-size: 3rem;
+    }
+
+    .contador {
+        height: 250px;
+        padding-top: 18%;
+    }
+    .countdown-header {
+        font-size: 1.5rem;
+    }
+    .countdown {
+        font-size: 0.7rem;
+    }
+    .countdown div span {
+        font-size: 0.4rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+   
+}
+
+@media screen and (max-width: 375px) {
+    .contador {
+        height: 200px;
+        padding-top: 18%;
+    }
+    .countdown-header {
+        font-size: 1.3rem;
+    }
+    .countdown {
+        font-size: 0.6rem;
+    }
+    .countdown div span {
+        font-size: 0.3rem;
+    }
+    .titulo2{
+        font-size: 2rem;
+    }
+}
+
+/* Media  contador */
+
+
+  ul{
+    width:100%;
+    height:100%;
+    box-shadow:inset 0 0 1px rgba(0,0,0,.05);
+    list-style-type: none;
+  }
+  li{
+    float:left;
+    width:33.33%;
+    height:50%;
+  }
+  li img{
+    width:70%;
+    height:70%;
+    margin:15%;
+    box-shadow:0 0 1px 1px rgba(0,0,0,.2);
+    transform:rotate(4deg);
+    transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -ms-transition:all .5s ease-in-out;
+  }
+  li img:hover{
+    width:90%;
+    height:90%;
+    margin:5%;
+    transform:rotate(0deg);
+    box-shadow:0 0 10px 1px rgba(0,0,0,.5);
+  }
+  
+
+/* Convento */
